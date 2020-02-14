@@ -1,0 +1,49 @@
+/*
+* Author: Laim McKenzie (https://laimmckenzie.com)
+* Version: 1.0
+* Last Update: Feb 2020
+* Copyright (c) Laim McKenzie
+*/
+@font-face {
+    font-family: SFProDisplayBold;
+    src: url(../../assets/fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: SFProDisplayLight;
+    src: url(../../assets/fonts/SF-Pro-Display-Light.otf);
+}
+
+body {
+    font-family: SFProDisplayLight;
+    background: #b5e61d !important;
+}
+
+.header {
+    font-family: SFProDisplayBold;
+    font-size: 2.85rem !important;
+}
+
+.sub-header {
+    font-family: SFProDisplayBold;
+    font-size: 1.7rem !important;
+}
+
+.api {
+    color: #000 !important;
+}
+
+.gooseorange {
+    color: #FDA50F !important;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+}
+  
+li::before {
+    content: '>';
+    position: absolute;
+    left: 10px;
+}
